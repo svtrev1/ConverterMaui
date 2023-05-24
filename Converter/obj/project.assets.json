@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "net7.0-android33.0": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -1927,6 +1956,35 @@
       }
     },
     "net7.0-android33.0/android-arm": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -3852,6 +3910,35 @@
       }
     },
     "net7.0-android33.0/android-arm64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -5777,6 +5864,35 @@
       }
     },
     "net7.0-android33.0/android-x64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -7702,6 +7818,35 @@
       }
     },
     "net7.0-android33.0/android-x86": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -9627,6 +9772,35 @@
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -11552,6 +11726,35 @@
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -13477,6 +13680,35 @@
       }
     },
     "net7.0-ios16.1": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -13661,6 +13893,35 @@
       }
     },
     "net7.0-ios16.1/android-arm": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -13845,6 +14106,35 @@
       }
     },
     "net7.0-ios16.1/android-arm64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -14029,6 +14319,35 @@
       }
     },
     "net7.0-ios16.1/android-x64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -14213,6 +14532,35 @@
       }
     },
     "net7.0-ios16.1/android-x86": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -14397,6 +14745,35 @@
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -14581,6 +14958,35 @@
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -14765,6 +15171,35 @@
       }
     },
     "net7.0-maccatalyst16.1": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -14949,6 +15384,35 @@
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15133,6 +15597,35 @@
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15317,6 +15810,35 @@
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15501,6 +16023,35 @@
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15685,6 +16236,35 @@
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15869,6 +16449,35 @@
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
+      "Flurl/3.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "compile": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16054,6 +16663,42 @@
     }
   },
   "libraries": {
+    "Flurl/3.0.7": {
+      "sha512": "W3zHc8m6/yqOAedHwpFQv5VT8t0W/jkS3AVlv1Tj520KDNjUa31at0zMc3XYJy8f9qdOmUcvSUarf6G2nK1ZIg==",
+      "type": "package",
+      "path": "flurl/3.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flurl.3.0.7.nupkg.sha512",
+        "flurl.nuspec",
+        "icon.png",
+        "lib/net461/Flurl.dll",
+        "lib/net461/Flurl.xml",
+        "lib/net472/Flurl.dll",
+        "lib/net472/Flurl.xml",
+        "lib/netstandard2.0/Flurl.dll",
+        "lib/netstandard2.0/Flurl.xml"
+      ]
+    },
+    "Flurl.Http/4.0.0-pre3": {
+      "sha512": "2N01ftKNnl5dhPvEYITn+DhrPrpxL+i/725aBOJkLHAT3LdKliwnybJKDqUDVR8CbLgBf6IcfhYnaLU7fTq0dw==",
+      "type": "package",
+      "path": "flurl.http/4.0.0-pre3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flurl.http.4.0.0-pre3.nupkg.sha512",
+        "flurl.http.nuspec",
+        "icon.png",
+        "lib/net461/Flurl.Http.dll",
+        "lib/net461/Flurl.Http.xml",
+        "lib/net6.0/Flurl.Http.dll",
+        "lib/net6.0/Flurl.Http.xml",
+        "lib/netstandard2.0/Flurl.Http.dll",
+        "lib/netstandard2.0/Flurl.Http.xml"
+      ]
+    },
     "GoogleGson/2.9.1.1": {
       "sha512": "OreKEL2Yx2u8YhRqv0e+j45cEzoe+fyMEzGN+M/vfBDPsIXQcA6lGdHXO07bTrGn6NNwxY67dyIfbyXx3A7cDA==",
       "type": "package",
@@ -18409,6 +19054,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "Flurl.Http >= 4.0.0-pre3",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -18428,6 +19074,7 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "Flurl.Http >= 4.0.0-pre3",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -18436,6 +19083,7 @@
       "Microsoft.Maui.Graphics >= 7.0.81"
     ],
     "net7.0-maccatalyst16.1": [
+      "Flurl.Http >= 4.0.0-pre3",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -18492,6 +19140,10 @@
       "net7.0-android33.0": {
         "targetAlias": "net7.0-android",
         "dependencies": {
+          "Flurl.Http": {
+            "target": "Package",
+            "version": "[4.0.0-pre3, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -18610,6 +19262,10 @@
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
         "dependencies": {
+          "Flurl.Http": {
+            "target": "Package",
+            "version": "[4.0.0-pre3, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -18673,6 +19329,10 @@
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
         "dependencies": {
+          "Flurl.Http": {
+            "target": "Package",
+            "version": "[4.0.0-pre3, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",

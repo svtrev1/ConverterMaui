@@ -1,41 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Converter.MainPage">
+             xmlns:model='clr-namespace:Converter.Model'
+             xmlns:viewmodel='clr-namespace:Converter.ViewModel'
+             x:DataType="{x:Type viewmodel:ViewModel}"
+             x:Class="Converter.MainPage"
+             Title="Конвертер Валют">
 
     <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
+        <StackLayout
+            Margin="15,0"
             VerticalOptions="Center">
-
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
-
+            <Grid>
+                <Label Text="Выберите дату"
+                       HorizontalOptions="Start"
+                       FontSize="19"/>
+                <DatePicker
+                    Date="{Binding SelectedDate}"
+                    Format="d"
+                    FontSize="19"
+                    HorizontalOptions="End"/>
+            </Grid>
+            <Grid Margin="0,15,0,0">
+                <Entry
+                    Text="{Binding ValueInput}"
+                    x:DataType="viewmodel:ViewModel"
+                    BackgroundColor="Chocolate"
+                    Placeholder="Введите значение"
+                    HorizontalOptions="Center"
+                    MinimumWidthRequest="60"
+                />
+            </Grid>
+            <Grid Margin="20,15,20,0">
+            <Picker
+                ItemsSource="{Binding ListValute}"
+                SelectedItem="{Binding FirstValute}"
+                BackgroundColor="Aqua"
+                HorizontalOptions="Start"
+                MinimumWidthRequest="60"/>
             <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-
-        </VerticalStackLayout>
+                Text="--->"
+                FontSize="30"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"/>
+            <Picker
+                ItemsSource="{Binding ListValute}"
+                SelectedItem="{Binding SecondValute}"
+                BackgroundColor="Brown"
+                HorizontalOptions="End"
+                MinimumWidthRequest="60"/>
+            </Grid>
+            <Grid>
+                <Label
+                    Text="{Binding Conversion}"
+                    HorizontalTextAlignment="Center"
+                    MinimumWidthRequest="60"
+                    BackgroundColor="Lime"
+                    HorizontalOptions="Center"
+                    Margin="0,30,0,0"/>
+            </Grid>
+        </StackLayout>
     </ScrollView>
-
 </ContentPage>
